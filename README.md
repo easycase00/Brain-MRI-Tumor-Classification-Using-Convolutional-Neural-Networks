@@ -44,7 +44,7 @@ The model architecture is as follows:
 6. Flattening layer to convert the 3D matrix into a 1D vector.
 7. Dense layer with one neuron and sigmoid activation for binary classification.
 
-![ConvNet Architecture](convnet_architecture.jpg)
+
 
 ### Rationale for Architecture
 Initial experiments with transfer learning using ResNet50 and VGG-16 resulted in overfitting due to the small dataset size. Given computational and memory constraints (6th generation Intel i7 CPU, 8 GB memory), a simpler architecture was adopted and trained from scratch, yielding effective results.
